@@ -1,0 +1,72 @@
+[Running] python -u "c:\Users\swaya\OneDrive\Desktop\PYTHON\disease_prediction.py"
+
+Logistic Regression Results:
+Accuracy: 0.7532467532467533
+Confusion Matrix:
+ [[79 20]
+ [18 37]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.81      0.80      0.81        99
+           1       0.65      0.67      0.66        55
+
+    accuracy                           0.75       154
+   macro avg       0.73      0.74      0.73       154
+weighted avg       0.76      0.75      0.75       154
+
+
+SVM Results:
+Accuracy: 0.7597402597402597
+Confusion Matrix:
+ [[81 18]
+ [19 36]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.81      0.82      0.81        99
+           1       0.67      0.65      0.66        55
+
+    accuracy                           0.76       154
+   macro avg       0.74      0.74      0.74       154
+weighted avg       0.76      0.76      0.76       154
+
+
+Random Forest Results:
+Accuracy: 0.7207792207792207
+Confusion Matrix:
+ [[77 22]
+ [21 34]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.79      0.78      0.78        99
+           1       0.61      0.62      0.61        55
+
+    accuracy                           0.72       154
+   macro avg       0.70      0.70      0.70       154
+weighted avg       0.72      0.72      0.72       154
+
+C:\Users\swaya\AppData\Local\Programs\Python\Python313\Lib\site-packages\xgboost\training.py:183: UserWarning: [23:46:13] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738: 
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+
+XGBoost Results:
+Accuracy: 0.7207792207792207
+Confusion Matrix:
+ [[72 27]
+ [16 39]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.82      0.73      0.77        99
+           1       0.59      0.71      0.64        55
+
+    accuracy                           0.72       154
+   macro avg       0.70      0.72      0.71       154
+weighted avg       0.74      0.72      0.73       154
+
+
+[Done] exited with code=0 in 2.608 seconds
+
